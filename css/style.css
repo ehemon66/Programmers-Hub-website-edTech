@@ -12,3 +12,15 @@
 .p-hub-footer-color {
     background-color: #161616;
 }
+
+
+
+/* responsive  */
+
+@media screen and (min-width:576px) {
+
+    #register {
+        display: none;
+    }
+
+}
