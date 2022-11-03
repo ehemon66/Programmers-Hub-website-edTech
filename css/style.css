@@ -23,6 +23,10 @@
         display: none;
     }
 
+    #btn-register {
+        display: none;
+    }
+
     #show {
         display: flex;
         flex-direction: column;
