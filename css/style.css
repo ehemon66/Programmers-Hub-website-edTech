@@ -17,7 +17,20 @@
 
 /* responsive  */
 
-@media screen and (min-width:576px) {
+@media only screen and (max-width:576px) {
+
+    #register {
+        display: none;
+    }
+
+    #show {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
 
     #register {
         display: none;
